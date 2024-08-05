@@ -1,0 +1,15 @@
+
+
+.logo{
+
+
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subHeading:hover{
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
