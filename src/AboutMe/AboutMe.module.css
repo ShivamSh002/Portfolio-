@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.avatar{
+    width: 500px;
+}
+
+.content{
+    width: 500px;
+    color: white;
+    font-size: 18px ;
+    opacity: 0.5;
+}
+
+.subPart{
+    margin-top: 50px;
+  color: white;
+  font-weight: 600;
+  span{
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 1000px) {
+    .content {
+      width: 380px !important;
+    }
+    .subPart{
+        text-align: center;
+    }
+  }
+  

@@ -9,7 +9,7 @@ import Resume from "../Assests/cv.pdf"
 
 const HeroSection = () => {
   return (
-    <div className={styles.heroWrapper}><div><h2>Hi I am</h2> 
+    <div className={styles.heroWrapper}><div className={styles.leftWrapper}><h2>Hi I am</h2> 
     <h1>Shivam Sharma</h1>
      <p>FULLSTACK DEVELOPER</p>
      <div className={styles.iconsWrapper}>

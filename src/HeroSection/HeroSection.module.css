@@ -81,3 +81,14 @@
 .img{
     width: 500px;
 }
+
+.leftWrapper{
+    width: max-content;
+}
+
+@media (max-width: 1000px) {
+    .leftWrapper {
+      width: 380px !important;
+    }
+  }
+  
