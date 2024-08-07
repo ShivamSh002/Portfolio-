@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.logo{
+    border: 1px solid white;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+    border-radius: 20px;
+    padding-top:3px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+}
+
+.logo:hover{
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.subheading{
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+
+
+.skillsGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    text-align: center;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+

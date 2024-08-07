@@ -1,8 +1,4 @@
-
-
 .logo{
-
-
     background: linear-gradient(90deg, #FF8C00, #FF4500);
     -webkit-background-clip: text;
     color: transparent;
@@ -12,4 +8,5 @@
     background: linear-gradient(90deg, #FF8C00, #FF4500);
     -webkit-background-clip: text;
     color: transparent;
+    transition: 0.5s;
 }
