@@ -32,6 +32,18 @@
   }
 }
 
+.ratingWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+  text-align: center;
+}
+
 @media (max-width: 1000px) {
     .content {
       width: 380px !important;

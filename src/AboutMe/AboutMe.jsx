@@ -4,6 +4,9 @@ import  Avatar  from '../Assests/file (1).png'
 import { LuDownload } from "react-icons/lu";
 import Resume from "../Assests/cv.pdf"
 
+import Rating from '@mui/material/Rating';
+
+
 
 const AboutMe = () => {
   return (
@@ -28,7 +31,35 @@ Currently, I am in the process of completing a fellowship course in Full Stack D
 </div>
 
     </div>
+     <div className={styles.ratingWrapper}>
+      <div>Front-End
+     <div>  <Rating sx={{
+    "& .MuiRating-iconEmpty": {
+      color: "rgba(255, 255, 255, 0.5)", 
+    },
+  }} name="half-rating" defaultValue={4.5} precision={0.5}  readOnly /></div>
+     
+      </div>
+     <div>Back-End
+ 
+      <div>  <Rating sx={{
+    "& .MuiRating-iconEmpty": {
+      color: "rgba(255, 255, 255, 0.5)", 
+    },
+  }}  name="half-rating" defaultValue={3.5} precision={0.5} readOnly /></div>
+   
     
+     </div>
+     <div>Database
+   
+     <div> <Rating sx={{
+    "& .MuiRating-iconEmpty": {
+      color: "rgba(255, 255, 255, 0.5)", 
+    },
+  }}  name="half-rating" defaultValue={3.5} precision={0.5} readOnly /></div>
+    
+     </div>
+     </div>
     </div>
   )
 }

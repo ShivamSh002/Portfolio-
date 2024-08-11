@@ -1,10 +1,21 @@
+.scroll-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
 .heroWrapper{
     display: flex;
     justify-content: space-around;
     color: white;
     align-items: center;
     flex-wrap: wrap;
+    scroll-snap-align: start;
+    transform: translateY(20px); /* Start slightly down */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
 
+    
     h2{
         opacity: 50%;
     }
@@ -19,8 +30,25 @@
        -webkit-background-clip: text;
        color: transparent;
     }
+   
 }
 
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Automatically trigger the animation when the element is loaded */
+.heroWrapper {
+    animation: fadeInUp 1s ease-out forwards;
+}
 .iconsWrapper{
    
     display: flex;
@@ -91,4 +119,3 @@
       width: 380px !important;
     }
   }
-  
