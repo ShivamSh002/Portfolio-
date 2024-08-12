@@ -5,6 +5,7 @@ import HeroSection from './HeroSection/HeroSection'
 import Skills from './Skills/Skills'
 import AboutMe from './AboutMe/AboutMe'
 import Project from './Projects/Project'
+import ContactMe from './ContactMe/ContactMe'
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
      <Skills/>
      <AboutMe/>
      <Project/>
+     <ContactMe/>
     </div>
   )
 }

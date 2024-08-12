@@ -3,6 +3,7 @@
     opacity: 1; /* Initially hidden */
     transform: translateY(20px); /* Start slightly down */
     transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+    animation: fadeInUp 1s ease-out forwards;
 }
 
 
@@ -16,6 +17,9 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+.skillsWrapper{
+    animation: fadeInUp 1s ease-out forwards;
 }
 
 .heading{

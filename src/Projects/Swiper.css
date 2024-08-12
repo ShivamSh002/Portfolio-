@@ -16,7 +16,46 @@
     width: 100%;
   }
   
+  .dataWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 8px double rgb(255, 255, 255,50%);
+    border-radius: 20px;
+    margin-inline: 10%;
+    padding: 20px;
+    height: 500px;
+    h1{
+      margin-bottom: -10px;
+    }
+  }
 
+  .wrapper{
+    opacity: 0.8;
+  }
+ 
+
+  .pillWrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .pill{
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255,50%);
+    border-radius: 8px;
+    background-color: rgb(88, 88, 88,30%);
+  }
+ 
   
-
+  @media (max-width: 1050px) {
+    .dataWrapper{
+      height: max-content !important;
+    }
+  }
+  
   
