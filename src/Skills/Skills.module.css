@@ -70,3 +70,17 @@
     align-items: center;
 }
 
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+  
+ .skillsGrid{
+    margin-inline: 10px;
+    gap: 40px;
+ }
+     }

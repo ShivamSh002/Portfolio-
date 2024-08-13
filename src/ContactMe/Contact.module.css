@@ -1,0 +1,56 @@
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.subPart{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    opacity: 0.3;
+}
+
+.formWrapper{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-inline: 20%;
+    gap:20px;
+    margin-top: 80px;
+    
+}
+
+
+@media (max-width: 600px) {
+ .formWrapper{
+    justify-content: center;
+  div{
+    width: 300px;
+    
+  }
+ }
+ .btn{
+    display: flex;
+    justify-content: center;
+ }
+  }
+
+  @media (max-width: 1350px) {
+    .formWrapper{
+       justify-content: center;
+     div{
+       width: 300px;
+       
+     }
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+     }
+ 
+     }

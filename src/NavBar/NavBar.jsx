@@ -32,10 +32,12 @@ function NavBar() {
 
 
   return (
+    <div >
     <AppBar position="static" 
     sx={{ 
-      background: 'linear-gradient(180deg, #121212 0%, #121212 100%)'
+      background: 'linear-gradient(180deg, #121212 0%, #121212 100%)',zIndex : "10"
     }}
+   
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -150,6 +152,7 @@ function NavBar() {
         </Toolbar>
       </Container>
     </AppBar>
+    </div>
   );
 }
 export default NavBar;

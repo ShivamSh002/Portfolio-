@@ -2,20 +2,23 @@
 .swiper {
     width: 100%;
     padding-bottom: 50px;
+    box-sizing: border-box;
   }
   
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 500px;
     height: 400px;
   }
-  
+    
   .swiper-slide img {
     display: block;
     width: 100%;
   }
-  
+
+    
   .dataWrapper{
     display: flex;
     flex-direction: column;
@@ -25,14 +28,18 @@
     border-radius: 20px;
     margin-inline: 10%;
     padding: 20px;
-    height: 500px;
+    height: 520px;
+    height: 520px;
+    box-sizing: border-box;
+   
+   
     h1{
-      margin-bottom: -10px;
+      margin-block: -10px;
     }
   }
 
   .wrapper{
-    opacity: 0.8;
+    opacity: 0.7;
   }
  
 
@@ -42,20 +49,29 @@
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
-  }
+    margin-top: 20px;
+  } 
 
   .pill{
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    -webkit-background-clip: text;
+    color: transparent;
     padding: 5px;
     border: 2px solid rgb(255, 255, 255,50%);
     border-radius: 8px;
-    background-color: rgb(88, 88, 88,30%);
   }
  
+  .pill:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
   
   @media (max-width: 1050px) {
     .dataWrapper{
       height: max-content !important;
     }
   }
+
   
   

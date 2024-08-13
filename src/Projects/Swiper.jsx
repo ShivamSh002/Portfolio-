@@ -101,11 +101,13 @@ export default function SwiperGrid() {
              {item.details.map((detail, index) => (
               <li key={index}>{detail}</li>
              ))}
+
           </ul>
+          </div>
           <div className='pillWrapper'>{item.technologies.map((tech, index) => (
               <div className='pill' key={index}>{tech}</div>
              ))}</div>
-          </div></div>
+          </div>
           
         ))}
        
