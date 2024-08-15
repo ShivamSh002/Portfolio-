@@ -36,7 +36,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className={styles.skillsWrapper}>
+    <div className={styles.skillsWrapper} id='Skills'>
       <p className={styles.heading}>Skills Acquired
       </p>
       <div className={styles.skillsGrid}>

@@ -4,21 +4,24 @@ import  Avatar  from '../Assests/file (1).png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
-import Button from '@mui/material/Button';
 import Resume from "../Assests/cv.pdf"
+import {HashLink as Link} from "react-router-hash-link"
+
+const linkStyle = { color: "white", textDecoration: 'none' };
 
 const HeroSection = () => {
+  
   return (
-    <div className={styles.heroWrapper}><div className={styles.leftWrapper}><h2>Hi I am</h2> 
+    <div className={styles.heroWrapper}><div className={styles.leftWrapper}><div className={styles.wrapper} id='Home'><h2>Hi I am</h2> 
     <h1>Shivam Sharma</h1>
      <p>FULLSTACK DEVELOPER</p>
      <div className={styles.iconsWrapper}>
-        <div className={styles.icons}><GitHubIcon/></div>
-        <div className={styles.icons}><LinkedInIcon/></div>
-        <div className={styles.icons}><MailIcon/></div>
-    </div>  
+        <div className={styles.icons}><a href="https://github.com/ShivamSh002" target='blank'><GitHubIcon/></a></div>
+        <div className={styles.icons}><a href="https://www.linkedin.com/in/shivam-sharma-6a6bb2285/" target='blank'><LinkedInIcon/></a></div>
+        <div className={styles.icons}> <a href="mailto:ShivamSharma98879@gmail.com" target='blank'><MailIcon/></a></div>
+    </div>  </div>
     <div className={styles.subparts}>
-        <div> Hire Me</div>
+      <Link to="#Contact Me" smooth style={linkStyle}>  <div> Hire Me</div></Link>
         <div>  
 <a 
    href={Resume} 

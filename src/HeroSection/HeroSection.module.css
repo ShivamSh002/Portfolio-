@@ -45,7 +45,6 @@
     }
 }
 
-/* Automatically trigger the animation when the element is loaded */
 .heroWrapper {
     animation: fadeInUp 1s ease-out forwards;
 }
@@ -57,7 +56,20 @@
 
 .icons{
    cursor: pointer;
+   a{
+    color: white;
+    text-decoration: none;
+   }
 }
+.emailText {
+    font-size: 14px;
+    color: #333; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+         
+  }
 
 .subparts{
     margin-block: 50px;
@@ -118,4 +130,13 @@
     .leftWrapper {
       width: 380px !important;
     }
+  }
+
+  @media (max-width: 400px) {
+   .wrapper{
+    text-align: center;
+   }
+   .iconsWrapper{
+    justify-content: center;
+   }
   }

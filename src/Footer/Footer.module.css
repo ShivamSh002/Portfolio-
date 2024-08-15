@@ -1,0 +1,89 @@
+.footerWrapper{
+    background-color: rgb(253, 252, 252,3%);
+    margin-top: 120px;
+    padding: 10px 40px 10px 40px;
+}
+
+.logoWrappper{
+   
+    text-align: center;
+    
+   
+    .logo{
+        background: linear-gradient(90deg, #FF8C00, #FF4500);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+}
+
+.wrapper{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-weight: 600;
+    opacity: 0.6;
+ 
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+.child:hover{
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.iconsWrapper{
+   color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    opacity: 0.6;
+}
+
+.icons{
+   cursor: pointer;
+   a{
+    color: white;
+    text-decoration: none;
+   }
+}
+
+.childWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+   a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    opacity: 0.6;
+    display: flex;
+    cursor: pointer;
+   }
+}
+.childWrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+   cursor: pointer;
+}
+
+.credit{
+  text-align: center;
+  color: white;
+  opacity: 0.4;
+
+}

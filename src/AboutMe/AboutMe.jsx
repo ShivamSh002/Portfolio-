@@ -10,7 +10,7 @@ import Rating from '@mui/material/Rating';
 
 const AboutMe = () => {
   return (
-    <div ><p className={styles.heading}>About Me</p>
+    <div id='About Me' ><p className={styles.heading}>About Me</p>
     
     <div className={styles.wrapper}>
         <div className={styles.avatar}> <img src={Avatar} alt="avatar" width="100%" /></div>

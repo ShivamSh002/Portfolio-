@@ -4,7 +4,7 @@ import SwiperGrid from './Swiper';
 
 const Project = () => {
   return (
-    <div className={styles.projectWrapper}><p className={styles.heading}>Projects</p>
+    <div className={styles.projectWrapper} id='Projects'><p className={styles.heading}>Projects</p>
     <div >
     <div>   <SwiperGrid/></div>
     </div>

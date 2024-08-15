@@ -51,7 +51,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div>
+    <div id='Contact Me'>
       <p className={styles.heading}>Contact Me</p>
       <p className={styles.subPart}>Cultivating Connections: Reach Out and Connect with Me</p>
       <div>
@@ -75,6 +75,7 @@ const ContactMe = () => {
           <div>
             <TextField
               id="email"
+              type='email'
               label="Email"
               variant="outlined"
               value={formData.email}
