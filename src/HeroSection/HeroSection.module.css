@@ -98,7 +98,7 @@
     font-weight: 500;
     display: flex;
     background-color: rgb(253, 252, 252,5%);
-    column-gap: 40px;
+    column-gap: 30px;
     padding: 20px;
     border-radius: 10px;
 
@@ -128,7 +128,7 @@
 
 @media (max-width: 1000px) {
     .leftWrapper {
-      width: 380px !important;
+      width: 370px !important;
     }
   }
 
