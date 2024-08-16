@@ -55,7 +55,7 @@ export default function SwiperGrid() {
         
       >
         <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '300px' }}>
-          <a href="https://qkart-frontend-9l0j8a0z8-shivam-sharmas-projects-1836c282.vercel.app/" target='blank'>
+          <a href="https://qkart-frontend-eosin.vercel.app/" target='blank'>
             <img src={Qkart} id='2' style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'cover' }} alt="Qkart" />
           </a>
         </SwiperSlide>
