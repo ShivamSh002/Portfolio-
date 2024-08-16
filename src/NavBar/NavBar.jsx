@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import Resume from "../Assests/cv.pdf"
+import Resume from "../Assests/ShivamSharma.pdf"
 import {HashLink as Link} from "react-router-hash-link"
 import { SiLetterboxd } from "react-icons/si";
 
